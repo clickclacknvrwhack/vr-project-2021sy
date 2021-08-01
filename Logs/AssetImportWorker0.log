@@ -84,3 +84,11 @@ Received Import Request.
 Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/XR Device Simulator/center-col.psd using Guid(50a4a5bf3b70940488194f7430d9de56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec00e3adbf99a2c0cca3ec11738299c2') in 0.478182 seconds 
   Import took 0.483980 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 116.393520 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/XR Device Simulator/dogo.psd
+  artifactKey: Guid(7940f04331bce405c9a151aedd2b5975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/XR Device Simulator/dogo.psd using Guid(7940f04331bce405c9a151aedd2b5975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf79ac3f2935dbbb7ffffc69bca73f5') in 0.011851 seconds 
+  Import took 0.017960 seconds .
+
