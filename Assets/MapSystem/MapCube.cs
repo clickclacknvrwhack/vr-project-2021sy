@@ -35,7 +35,7 @@ public class MapCube : MonoBehaviour
             //Creates a small cube on top of the existing small cube
 
             Vector3 cubePosition;
-            Vector3 offsetPosition = Vector3.up * .5f;
+            Vector3 offsetPosition = Vector3.up * .25f;
             cubePosition = this.transform.position + offsetPosition;
 
             GameObject cube = GameObject.Instantiate<GameObject>(prefab_SmallCube);
