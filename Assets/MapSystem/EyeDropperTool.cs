@@ -10,6 +10,7 @@ public class EyeDropperTool : MonoBehaviour
 {
 
     public GameObject prefab_Drop;
+    public GameObject SpawnPoint;
 
 
     // Start is called before the first frame update
@@ -29,9 +30,9 @@ public class EyeDropperTool : MonoBehaviour
         Vector3 dropPosition;
 
  
-        Vector3 offsetPosition = Vector3.down * .5f;
+        //Vector3 offsetPosition = Vector3.down * .38f;
 
-        dropPosition = this.transform.position + offsetPosition;
+        dropPosition = SpawnPoint.transform.position;
 
         Debug.Log("Drop");
         GameObject drop = GameObject.Instantiate<GameObject>(prefab_Drop);
